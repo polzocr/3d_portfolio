@@ -16,7 +16,7 @@ export default function App() {
         <Tech />
         <Works />
         <Feedbacks />
-        <div className="relatuve z-0">
+        <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
