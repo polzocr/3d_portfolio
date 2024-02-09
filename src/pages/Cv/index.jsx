@@ -1,7 +1,7 @@
 import './index.css'
 
-import Aside from '../../components/cv/aside/index'
-import Content from '../../components/cv/content/index'
+import Aside from '/../../components/cv/Aside/index'
+import Content from '../../components/cv/Content/index'
 
 export default function Cv(){
     return (
