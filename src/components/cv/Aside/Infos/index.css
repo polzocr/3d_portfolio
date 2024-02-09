@@ -10,6 +10,6 @@
 }
 
 .title-infos{
-    color: white ;
-    border-bottom: 1px solid #fff ;
+    color: white !important;
+    border-bottom: 1px solid #fff !important;
 }

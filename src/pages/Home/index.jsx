@@ -4,7 +4,6 @@ export default function Home(){
     return (
         <main>
             <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-                {/* <Navbar /> */}
                 <Hero />
             </div>
             <Tech />

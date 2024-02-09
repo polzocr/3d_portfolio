@@ -2,8 +2,13 @@
     max-width: 1024px;
     margin: auto;
     box-shadow: 1px -1px 5px 0px #737373;
+    font-family: "Lato", sans-serif;
     /* height: 100vh; */
     /* width: 80%; */
+}
+
+#cv * {
+    font-family: "Lato", sans-serif;
 }
 
 
@@ -11,6 +16,7 @@
     #cv{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        padding-top: 10;
     }
 }
 
@@ -27,18 +33,18 @@
     padding: 8% 5% 5% 5% ;
 }
 
-span {
+#cv span {
     font-weight: bold;
 }
 
-h1 {
+#cv h1 {
     font-size: 60px;
     font-weight: normal;
     color: #323B4C ;
     letter-spacing: 4px;
 }
 
-h2 {
+#cv h2 {
     font-size: 28px;
     font-weight: 500;
     color: #323B4C ;
@@ -46,7 +52,7 @@ h2 {
     margin-top: -1%
 }
 
-h3{
+ #cv h3{
     font-size:32px;
     font-weight: bold;
     color: #323B4C ;
@@ -55,12 +61,12 @@ h3{
     padding: 1% 0;
 }
 
-h4{
+#cv h4{
     font-size: 22px;
     color: #737373;
     font-weight: bold;
 }
 
-p {
+#cv p {
     font-size: 18px ;
 }
