@@ -11,9 +11,9 @@ export default function App() {
           <Navbar />
           <Hero />
         </div>
-        <About /> 
         <Tech />
         <Works />
+        <About /> 
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
