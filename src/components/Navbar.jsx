@@ -50,8 +50,8 @@ const Navbar = () => {
             return (
               <li key={`${link.id}-${index}`} className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}>
                 {link.title === 'Curriculum' 
-                ? <a href={`/${link.id}`}> {link.title}</a>
-                : <a href={`/#${link.id}`}> {link.title}</a>
+                  ? <a href={`/${link.id}`}> {link.title}</a>
+                  : <a href={`/#${link.id}`}> {link.title}</a>
                 }
               </li>
             )
@@ -67,7 +67,10 @@ const Navbar = () => {
                     setToggle(!toggle)
                     setActive(link.title)
                   }}>
-                    <a href={`#${link.id}`}> {link.title}</a>
+                    {link.title === 'Curriculum' 
+                      ? <a href={`/${link.id}`}> {link.title}</a>
+                      : <a href={`/#${link.id}`}> {link.title}</a>
+                    }
                   </li>
                 )
               })}

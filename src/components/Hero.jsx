@@ -2,7 +2,6 @@ import {motion} from 'framer-motion'
 import { localisation } from '../assets' 
 
 import {styles} from '../styles'
-import { ComputersCanvas } from './canvas'
 
 
 const Hero = () => {
