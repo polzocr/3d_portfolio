@@ -1,5 +1,5 @@
 import "./index.css"
-import Element from './element/index'
+import Element from './Element/index'
 
 
 export default function Experience({title, company, location, date, content}){

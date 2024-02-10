@@ -2,7 +2,7 @@ import './index.css'
 
 import contentData from '../../../data/content-data'
 
-import Experience from './experience/index'
+import Experience from './Experience/index'
 
 
 export default function Content(){

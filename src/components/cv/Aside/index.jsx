@@ -2,7 +2,7 @@ import './index.css'
 import photo from '../../../assets/photo.jpg'
 import asideDatas from '../../../data/aside-data'
 
-import Infos from './infos/index'
+import Infos from './Infos/index'
 
 
 export default function Aside(){
