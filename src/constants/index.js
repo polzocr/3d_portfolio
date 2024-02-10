@@ -27,7 +27,7 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
+    id: "cv",
     title: "Curriculum",
   },
   {

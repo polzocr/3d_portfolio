@@ -21,7 +21,7 @@ const Hero = () => {
             <p className='text-[#00E8EE] text-2xl'> Paris, Ile de france</p>
           </div>
           <div className=' mt-8 sm:mt-14  flex items-center gap-5 '>
-            <a href="/" className='bg-white py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary hover:bg-[#00E8EE]'>Voir CV</a>
+            <a href="/cv" className='bg-white py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary hover:bg-[#00E8EE]'>Voir CV</a>
             <a href="#contact" className='bg-white py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary hover:bg-[#00E8EE]'>Contact</a>
           </div>
         </div>
