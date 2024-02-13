@@ -26,8 +26,16 @@ import vercel from "./vercel.png"
 
 
 import kasa from "./kasa.png"
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import wealthhealth from "./wealth-health.png";
+import portefolio from "./portefolio.png";
+import sportsee from "./sportsee.png"
+import fisheye from "./fisheye.png"
+import groupomania from "./groupomania.png"
+import petitsplats from "./les-petits-plats.png"
+import billed from "./billed.png"
+import cv from "./cv.png"
+
+
 
 export {
   localisation,
@@ -50,11 +58,17 @@ export {
   redux,
   tailwind,
   kasa,
-  jobit,
-  tripguide,
+  wealthhealth,
+  portefolio,
   sql,
   scss,
   vuejs,
   api,
-  vercel
+  vercel,
+  sportsee,
+  fisheye,
+  groupomania,
+  petitsplats,
+  billed,
+  cv,
 };

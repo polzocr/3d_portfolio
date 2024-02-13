@@ -14,12 +14,18 @@ import {
   git,
   figma,
   kasa,
-  jobit,
-  tripguide,
+  wealthhealth,
+  portefolio,
   sql,
   scss,
   vuejs,
-  api
+  api,
+  sportsee,
+  fisheye,
+  groupomania,
+  petitsplats,
+  billed,
+  cv,
 } from "../assets";
 
 export const navLinks = [
@@ -139,33 +145,34 @@ const projects = [
     vercel_link: "https://p11-kasa-indol.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Wealth Health",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "WealthHealth est une grande société financière qui utilise une application interne nommé HRnet. Cette application permet de gérer les dossiers des employés.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "react-bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: wealthhealth,
+    source_code_link: "https://github.com/polzocr/P-14",
+    vercel_link: "https://p-14-taupe.vercel.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Portefolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Voici le portefolio sur lequel vous êtes actuellement ! Je me suis inspiré de plusieurs portefolio en 3D pour le réaliser. Il utilise React.js, Framer-motion, React-tilt et Tailwind.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
@@ -173,12 +180,149 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portefolio,
+    source_code_link: "https://github.com/polzocr/3d_portfolio",
+    vercel_link: "https://3d-portfolio-orcin-sigma.vercel.app/"
+  },
+  {
+    name: "SportSee",
+    description:
+      "SportSee est un tableau de bord d'analytics développé en React. L'utilisateur va pouvoir suivre ses sessions sportives et analyser ses résultats au cours du temps. L'accent est mis sur la DataVisualisation avec notamment D3.js.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+       {
+        name: "react-router",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prop-types",
+        color: "green-text-gradient",
+      },
+      {
+        name: "D3.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sportsee,
+    source_code_link: "https://github.com/polzocr/P12-SportSee",
+    vercel_link: "https://p12-sport-see-zeta.vercel.app/"
+  },
+  {
+    name: "FishEye",
+    description:
+      "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Il est entièrement adapté aux usagers présantant des handicaps.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "design-patterns",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fisheye,
+    source_code_link: "https://github.com/polzocr/Front-End-Fisheye-p6",
+    vercel_link: "https://front-end-fisheye-p6.vercel.app/"
+  },
+  {
+    name: "Groupomania",
+    description:
+      "Cette app est un réseau social interne pour les employés de Groupomania. Les utilisateurs peuvent poster des photos et des messages, commenter et liker les posts. (Il faut lancer le backend en local)",
+    tags: [
+      {
+        name: "vue.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: groupomania,
+    source_code_link: "https://github.com/polzocr/p7",
+    vercel_link: "https://p7-pink.vercel.app/login"
+  },
+  {
+    name: "Les petits plats",
+    description:
+      "C'est une application de recettes de cuisines. Le projet se concentre essentielement sur la partie recherche de recettes en fonction d'ingrédients et ustensils.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "algorithmie",
+        color: "green-text-gradient",
+      },
+      {
+        name: "POO ",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: petitsplats,
+    source_code_link: "https://github.com/polzocr/p7-les-petits-plats",
+    vercel_link: "https://p7-les-petits-plats-ten.vercel.app/"
+  },
+  {
+    name: "Billed",
+    description:
+      "Billed est une entreprise qui produits des solutions Saas destinées aux équipes de ressources humaines.(Suivre le Readme pour le backend et les codes de connexion)",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "testing-library",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jest ",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: billed,
+    source_code_link: "https://github.com/polzocr/P9-Billed",
+    vercel_link: "https://p9-billed-two.vercel.app/"
+  },
+   {
+    name: "CV en ligne",
+    description:
+      "Voici mon cv mis dans une application créée grâce à react.js",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "green-text-gradient",
+      },
+      {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cv,
+    source_code_link: "https://github.com/polzocr/portefolio",
+    vercel_link: "https://portefolio-bay.vercel.app/cv"
   },
 ];
 
