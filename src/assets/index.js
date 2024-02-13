@@ -22,9 +22,10 @@ import sql from "./tech/serveur-sql.png";
 import scss from "./tech/scss.png"
 import vuejs from "./tech/vuejs.png"
 import api from "./tech/api.png"
+import vercel from "./vercel.png"
 
 
-import carrent from "./carrent.png";
+import kasa from "./kasa.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -48,11 +49,12 @@ export {
   reactjs,
   redux,
   tailwind,
-  carrent,
+  kasa,
   jobit,
   tripguide,
   sql,
   scss,
   vuejs,
-  api
+  api,
+  vercel
 };

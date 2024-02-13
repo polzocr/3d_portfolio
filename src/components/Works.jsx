@@ -3,7 +3,7 @@ import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, vercel } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,9 +15,11 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  vercel_link
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <button onClick={() => window.open(vercel_link, "_blank")}>
+      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -27,14 +29,17 @@ const ProjectCard = ({
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
-          <img
+          <a href="" className='w-full h-full object-cover rounded-2xl' alt="link-live">
+            <img
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
+          </a>
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover z-20'>
+            <div className="flex gap-2">
+              <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
@@ -43,6 +48,17 @@ const ProjectCard = ({
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
+            </div>
+            <div
+              onClick={() => window.open(vercel_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={vercel}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain rounded-full bg-white p-1'
+              />
+            </div>
             </div>
           </div>
         </div>
@@ -64,6 +80,8 @@ const ProjectCard = ({
         </div>
       </Tilt>
     </motion.div>
+    </button>
+    
   );
 };
 

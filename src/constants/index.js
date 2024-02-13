@@ -13,7 +13,7 @@ import {
   mongodb,
   git,
   figma,
-  carrent,
+  kasa,
   jobit,
   tripguide,
   sql,
@@ -117,25 +117,26 @@ const technologies = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Kasa",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Kasa est une application web de location d'appartement entre particuliers. On peut y voir les nombreux appartements mis en ligne avec des photos ainsi qu'une description des lieux.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react-router",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: kasa,
+    source_code_link: "https://github.com/polzocr/P11-Kasa",
+    vercel_link: "https://p11-kasa-indol.vercel.app/",
   },
   {
     name: "Job IT",
