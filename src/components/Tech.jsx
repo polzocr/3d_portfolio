@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from 'framer-motion'
 import { fadeIn, textVariant } from '../utils/motion'
 import { styles } from '../styles'
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { Tilt } from 'react-tilt'
@@ -29,23 +28,14 @@ const Tech = () => {
         <p className={styles.sectionSubText}>Technologies</p>
         <h2 className={styles.sectionHeadText}>Compétences.</h2>
       </motion.div>
-      {/* <div className='flex flex-row flex-wrap justify-center gap-10'>
-      {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
-          <BallCanvas icon={technology.icon} />
+      <div className="flex items-center justify-center pb-20 pt-10">
+        <div className="grid xl:grid-cols-6 md:grid-cols-3 lg:grid-cols-5 grid-cols-2 lg:gap-6 gap-3 max-w-6xl">
+          {technologies.map((technology, index) => (
+            <SkillCard name={technology.name} icon={technology.icon} index = {index} key={technology.name}/>
+          ))}
+
         </div>
-      ))}
-    </div> */}
-
-
-    <div className="flex items-center justify-center pb-20 pt-10">
-      <div className="grid xl:grid-cols-6 md:grid-cols-3 lg:grid-cols-5 grid-cols-2 lg:gap-6 gap-3 max-w-6xl">
-        {technologies.map((technology, index) => (
-          <SkillCard name={technology.name} icon={technology.icon} index = {index} key={technology.name}/>
-        ))}
-
       </div>
-    </div>
     </>
     
   );
