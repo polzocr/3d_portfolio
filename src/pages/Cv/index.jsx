@@ -7,12 +7,12 @@ export default function Cv(){
     return (
         <>
             <section id='cv'>
-                <section id="side">
+                {/* <section id="side">
                     <Aside />
                 </section>
                 <section id="content">
                     <Content />
-                </section>
+                </section> */}
             </section>
         </>
     )
