@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { github, vercel } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, textVariant, textVariantWorks } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -18,7 +18,7 @@ const ProjectCard = ({
   vercel_link
 }) => {
   return (
-    <button onClick={() => window.open(vercel_link, "_blank")}>
+    <button onClick={() => window.open(vercel_link, "_blank")} >
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
@@ -29,13 +29,11 @@ const ProjectCard = ({
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
-          <a href="" className='w-full h-full object-cover rounded-2xl' alt="link-live">
             <img
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
-          </a>
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover z-20'>
             <div className="flex gap-2">
@@ -88,7 +86,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariantWorks()}>
         <p className={`${styles.sectionSubText} `}>Mon Travail</p>
         <h2 className={`${styles.sectionHeadText}`}>Projets.</h2>
       </motion.div>
