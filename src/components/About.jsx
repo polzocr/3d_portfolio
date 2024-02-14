@@ -33,6 +33,9 @@ const About = () => {
         sans jours de repos evidemment. Je fais même le ptit dej le dimanche matin. 
         Attention recruteurs, calmez vos ardeurs !
       </motion.p>
+      <motion.div variants={fadeIn("", "", 0.1, 1)} className=' mt-6'>
+        <a href="https://www.linkedin.com/in/paul-w11" rel='noreferrer' target='_blank' className='bg-white py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary hover:bg-[#00E8EE]'>Linkedin</a>
+      </motion.div>
       
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
