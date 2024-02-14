@@ -8,9 +8,9 @@ import Infos from './Infos/index'
 export default function Aside(){
     return (
         <>
-            {/* <div className='container-photo'>
+            <div className='container-photo'>
                 <img src={photo} alt="photo-profil" />
-            </div> */}
+            </div>
             {asideDatas.map((data, index) => {
                 return <Infos 
                     key={`${data.name}-${index}`}
