@@ -7,7 +7,6 @@ import Experience from './Experience/index'
 
 export default function Content(){
 
-    console.log(contentData)
     return (
         <>
             <h1><span>Paul</span> Wattelar</h1>
