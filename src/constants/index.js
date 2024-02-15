@@ -322,7 +322,7 @@ const projects = [
     ],
     image: cv,
     source_code_link: "https://github.com/polzocr/portefolio",
-    vercel_link: "https://portefolio-bay.vercel.app/cv"
+    vercel_link: "https://portefolio-bay.vercel.app/"
   },
 ];
 
