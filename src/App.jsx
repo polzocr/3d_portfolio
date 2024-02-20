@@ -1,7 +1,5 @@
 import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route } from "react-router-dom"
 
-import {About, Contact, Hero, Navbar, Tech, Works, StarsCanvas } from './components'
-
 import Layout from "./pages/Layout/index"
 import Home from "./pages/Home/index"
 import ErrorPage from "./pages/ErrorPage/index"
