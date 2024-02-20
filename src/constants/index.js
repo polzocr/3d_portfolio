@@ -125,7 +125,7 @@ const projects = [
   {
     name: "Kasa",
     description:
-      "Kasa est une application web de location d'appartement entre particuliers. On peut y voir les nombreux appartements mis en ligne avec des photos ainsi qu'une description des lieux.",
+      "Kasa est une application web de location d'appartement entre particuliers. On peut y voir les nombreux appartements mis en ligne avec des photos ainsi qu'une description des lieux. Ce projet est une implémentation de React et react-router à partir d'une maquette.",
     tags: [
       {
         name: "react",
@@ -147,7 +147,7 @@ const projects = [
   {
     name: "Wealth Health",
     description:
-      "WealthHealth est une grande société financière qui utilise une application interne nommé HRnet. Cette application permet de gérer les dossiers des employés.",
+      "Ce projet à pour objectif de migrer une application de JQuery à React. Il fallait aussi créer et implémenter un React-package. Le résultat final est une application interne permettant de gérer les dossiers des employés.",
     tags: [
       {
         name: "react",
@@ -176,7 +176,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -191,7 +191,7 @@ const projects = [
   {
     name: "SportSee",
     description:
-      "SportSee est un tableau de bord d'analytics développé en React. L'utilisateur va pouvoir suivre ses sessions sportives et analyser ses résultats au cours du temps. L'accent est mis sur la DataVisualisation avec notamment D3.js.",
+      "SportSee est un tableau de bord d'analytics développé en React. L'accent est mis sur la DataVisualisation avec notamment D3.js. J'ai créé une Class Javascript permettant de formatter les données provenant de l'api pour un affichage normalisé.",
     tags: [
       {
         name: "react",
@@ -217,7 +217,7 @@ const projects = [
   {
     name: "FishEye",
     description:
-      "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Il est entièrement adapté aux usagers présantant des handicaps.",
+      "FishEye est un site web de photographes entièrement adapté aux usagers présantant des handicaps et aux outils de lecture automatique. J'ai utilisé des factory et constructor pattern puis développé un carousel d'images, un systeme de tri des photos et une gestion de likes",
     tags: [
       {
         name: "javascript",
@@ -239,7 +239,7 @@ const projects = [
   {
     name: "Groupomania",
     description:
-      "Cette app est un réseau social interne pour les employés de Groupomania. Les utilisateurs peuvent poster des photos et des messages, commenter et liker les posts. (Il faut lancer le backend en local)",
+      "Cette app est un réseau social interne pour les employés de Groupomania. Les utilisateurs peuvent poster des photos et des messages, commenter et liker les posts. Le backend utilise Node.js, Express et MongoDB. Le frontend utilise Vue.js et Vuex.(Il faut lancer le backend en local)",
     tags: [
       {
         name: "vue.js",
@@ -261,7 +261,7 @@ const projects = [
   {
     name: "Les petits plats",
     description:
-      "C'est une application de recettes de cuisines. Le projet se concentre essentielement sur la partie recherche de recettes en fonction d'ingrédients et ustensils.",
+      "Le projet permet de rechercher des rechettes de cuisines en fonction d'ingrédients et ustensils. J'ai créé un algorithme de recherche en utilisant tout d'abord les fonctions natives de Javascript puis les boucles classiques. J'ai comparé les performances des deux options pour optimiser au maximum la recherche.",
     tags: [
       {
         name: "javascript",
@@ -283,7 +283,7 @@ const projects = [
   {
     name: "Billed",
     description:
-      "Billed est une entreprise qui produits des solutions Saas destinées aux équipes de ressources humaines.(Suivre le Readme pour le backend et les codes de connexion)",
+      "Billed est une entreprise qui produits des solutions Saas destinées aux équipes de ressources humaines. J'ai du développer tous les tests unitaires, d'intégration et rédiger un plan de test end-to-end manuel.(Suivre le Readme pour le backend et les codes de connexion)",
     tags: [
       {
         name: "javascript",
@@ -305,7 +305,7 @@ const projects = [
    {
     name: "CV en ligne",
     description:
-      "Voici mon cv mis dans une application créée grâce à react.js",
+      "Voici mon cv mis dans une application créée grâce à react.js !",
     tags: [
       {
         name: "react",
