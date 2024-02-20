@@ -29,9 +29,9 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         Je suis un développeur Javascript avec de l'expérience en FrontEnd et en Backend sur des frameworks comme React et Node.js.
-        J'utilise des Api externes que je formattent pour un affichage des données optimal, ou bien je créé moi-même un backend sécurisé en RestAPI.
-        J'implémente ensuite le tout dans des applications "user-friendly". 
-        J'apprend facilement de nouvelles technologies que j'aime utiliser pour résoudre des problèmes concrets. 
+        J'utilise des Api externes pour récupérer les données que je formatte pour un affichage optimal, ou bien je créé moi-même un backend sécurisé en RestAPI.
+        J'implémente ensuite le tout dans des applications au design "user-friendly". 
+        J'apprends facilement de nouvelles technologies que j'aime utiliser pour résoudre des problèmes concrets. 
         Le travail en équipe et l'esprit de groupe sont des moteurs pour moi dans le travail et dans la vie de tous les jours. 
       </motion.p>
       <motion.div variants={fadeIn("", "", 0.1, 1)} className=' mt-6'>
