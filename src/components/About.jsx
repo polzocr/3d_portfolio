@@ -28,10 +28,11 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Plein de truc sympa à dire : 
-        Employé modèle, Travailleur, Jamais au grand jamais en retard, et même en avance (c'est arrivé une fois!). Travail de jour comme de nuit 
-        sans jours de repos evidemment. Je fais même le ptit dej le dimanche matin. 
-        Attention recruteurs, calmez vos ardeurs !
+        Je suis un développeur Javascript avec de l'expérience en FrontEnd et en Backend sur des frameworks comme React et Node.js.
+        J'utilise des Api externes que je formattent pour un affichage des données optimal, ou bien je créé moi-même un backend sécurisé en RestAPI.
+        J'implémente ensuite le tout dans des applications "user-friendly". 
+        J'apprend facilement de nouvelles technologies que j'aime utiliser pour résoudre des problèmes concrets. 
+        Le travail en équipe et l'esprit de groupe sont des moteurs pour moi dans le travail et dans la vie de tous les jours. 
       </motion.p>
       <motion.div variants={fadeIn("", "", 0.1, 1)} className=' mt-6'>
         <a href="https://www.linkedin.com/in/paul-w11" rel='noreferrer' target='_blank' className='bg-white py-3 px-8 rounded-xl outline-none w-fit text-primary font-bold shadow-md shadow-primary hover:bg-[#00E8EE]'>Linkedin</a>
